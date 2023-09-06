@@ -1,0 +1,10 @@
+[build]
+  functions = "./functions"
+
+# this is actually a Rewrite
+# totally optional, but makes up for
+# a much better UX
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/index"
+  status = 200
