@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "pnpx lint-staged"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,6 +16,7 @@
     "puppeteer-core": "^21.1.1"
   },
   "devDependencies": {
+    "lint-staged": "^14.0.1",
     "prettier": "^3.0.3"
   }
 }
