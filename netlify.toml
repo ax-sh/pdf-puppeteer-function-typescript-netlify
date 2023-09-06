@@ -1,6 +1,10 @@
 [build]
   functions = "./functions"
 
+[functions]
+   node_bundler = "esbuild"
+   external_node_modules = ["@sparticuz/chromium"]
+
 # this is actually a Rewrite
 # totally optional, but makes up for
 # a much better UX
